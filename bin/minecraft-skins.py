@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 from diffusers import StableDiffusionPipeline
 from PIL import Image
@@ -112,8 +111,6 @@ if __name__ == "__main__":
     filename = args.filename
     verbose = args.verbose
     prompt = args.prompt
-
-    print("VERBOSE = " + str(verbose))
     
     if verbose:
         logger.setLevel(logging.INFO)
