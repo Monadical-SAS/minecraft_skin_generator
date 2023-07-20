@@ -15,30 +15,30 @@ This codebase further refines that model, and allows for in-game skins to be gen
   $ cd minecraft_skin_generator
   ```
 
-1. Install pipenv, if it has not been installed already:
+2. Install pipenv, if it has not been installed already:
 
   ```python
   $ pip install pipenv
   ```
   
-1. Start up a new pipenv environment and install any dependencies:
+3. Start up a new pipenv environment and install any dependencies:
 
   ```python
   $ pipenv shell
   $ pipenv install
   ```
 
-1. Skins can be generated using the minecraft-skins.py script in the bin directory:
+4. Skins can be generated using the minecraft-skins.py script in the bin directory:
 
   ```python
   $ python bin/minecraft-skins.py output-skin.png "A man in a purple suit wearing a tophat"
   ```
 
-1. The output skin will be saved into the "output-skin.png" and should similar to this:
+5. The output skin will be saved into the "output-skin.png" and should similar to this:
 
   ![images/purple.png](images/purple.png)
   
-1. The skin can then be imported directly into Minecraft:
+6. The skin can then be imported directly into Minecraft:
 
   ![images/minecraft-screenshot.png](images/minecraft-screenshot.png)
 
