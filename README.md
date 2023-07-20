@@ -8,7 +8,7 @@ This codebase further refines that model, and allows for in-game skins to be gen
 
 ## Using the Minecraft Skin Generator
 
-1. Check out the minecraft\_skin\_generator GitHub repository onto your computer:
+1. Clone the minecraft\_skin\_generator GitHub repository onto your computer:
 
   ```python
   $ git@github.com:Monadical-SAS/minecraft_skin_generator.git
