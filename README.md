@@ -34,9 +34,14 @@ This codebase further refines that model, and allows for in-game skins to be gen
   $ python bin/minecraft-skins.py output-skin.png "A man in a purple suit wearing a tophat"
   ```
 
-1. The output skin will be saved into the "output-skin.png" file and should be importable directly into Minecraft.
+1. The output skin will be saved into the "output-skin.png" and should similar to this:
 
   ![images/purple.png](images/purple.png)
+  
+1. The skin can then be imported directly into Minecraft:
+
+  ![images/minecraft-screenshot.png](images/minecraft-screenshot.png)
+
 
 ## Author
 
