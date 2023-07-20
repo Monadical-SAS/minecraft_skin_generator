@@ -11,7 +11,7 @@ This codebase further refines that model, and allows for in-game skins to be gen
 1. Clone the minecraft\_skin\_generator GitHub repository onto your computer:
 
   ```python
-  $ git@github.com:Monadical-SAS/minecraft_skin_generator.git
+  $ git clone git@github.com:Monadical-SAS/minecraft_skin_generator.git
   $ cd minecraft_skin_generator
   ```
 
