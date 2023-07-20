@@ -36,7 +36,7 @@ This codebase further refines that model, and allows for in-game skins to be gen
 
 1. The output skin will be saved into the "output-skin.png" file and should be importable directly into Minecraft.
 
-  [images/purple.png](images/purple.png)
+  ![images/purple.png](images/purple.png)
 
 ## Author
 
