@@ -88,7 +88,7 @@ def main(prompt, filename, logger):
     minecraft_skin = extract_minecraft_skin(generated_image)
 
     logger.info("Restoring transparency in generated skin file.")
-    # Clean up any background noise in the sking and restore the alphachannel transparency.
+    # Clean up any background noise in the skin and restore the alphachannel transparency.
     minecraft_skin = restore_skin_alphachannels(minecraft_skin)
 
     logger.info("Saving skin to: '{}'.".format(filename))
