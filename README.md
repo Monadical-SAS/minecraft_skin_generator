@@ -1,5 +1,12 @@
 # Stable Diffusion Minecraft Skin Generator
 
+
+## 💥 Update - February 19th, 2024 💥
+
+We have released a new open sourced Minecraft Skin Generator XL model based on Stable Diffusion XL. It offers many improvements over the original model, including support for the transparency layer.
+
+The new model can be [downloaded from HuggingFace](https://huggingface.co/monadical-labs/minecraft-skin-generator-sdxl).
+
 ## Update
 
 We have released a hosted version of our Minecraft Skin Generator at: [https://www.skingenerator.io](https://www.skingenerator.io)
