@@ -41,10 +41,15 @@ This codebase further refines that model, and allows for in-game skins to be gen
   $ pipenv install
   ```
 
-4. Skins can be generated using the minecraft-skins.py script in the bin directory:
+4. Skins can be generated using the Stable Diffusion 2 minecraft-skins.py script in the bin directory:
 
   ```python
   $ python bin/minecraft-skins.py output-skin.png "A man in a purple suit wearing a tophat"
+  ```
+To use the newer Stable Diffusion XL model, use the minecraft-skins-sdxl.py script:
+
+  ```python
+  $ python bin/minecraft-skins-sdxl.py output-skin.png "A man in a purple suit wearing a tophat"
   ```
 
 5. The output skin will be saved into "output-skin.png" and should be similar to this:
