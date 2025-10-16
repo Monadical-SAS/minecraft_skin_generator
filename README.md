@@ -1,6 +1,5 @@
 # Stable Diffusion Minecraft Skin Generator
 
-
 ## 💥 Update - February 19th, 2024 💥
 
 We have released a new open sourced Minecraft Skin Generator XL model based on Stable Diffusion XL. It offers many improvements over the original model, including support for the transparency layer.
@@ -23,44 +22,48 @@ This codebase further refines that model, and allows for in-game skins to be gen
 
 1. Clone the minecraft\_skin\_generator GitHub repository onto your computer:
 
-  ```python
-  $ git clone git@github.com:Monadical-SAS/minecraft_skin_generator.git
-  $ cd minecraft_skin_generator
-  ```
+```python
+$ git clone git@github.com:Monadical-SAS/minecraft_skin_generator.git
+$ cd minecraft_skin_generator
+```
 
 2. Install pipenv, if it has not been installed already:
 
-  ```python
-  $ pip install pipenv
-  ```
-  
+```python
+$ pip install pipenv
+```
+
 3. Start up a new pipenv environment and install any dependencies:
 
-  ```python
-  $ pipenv shell
-  $ pipenv install
-  ```
+```python
+$ pipenv shell
+$ pipenv install
+```
 
 4. Skins can be generated using the Stable Diffusion 2 minecraft-skins.py script in the bin directory:
 
-  ```python
-  $ python bin/minecraft-skins.py output-skin.png "A man in a purple suit wearing a tophat"
-  ```
+```python
+$ python bin/minecraft-skins.py output-skin.png "A man in a purple suit wearing a tophat"
+```
+
 To use the newer Stable Diffusion XL model, use the minecraft-skins-sdxl.py script:
 
-  ```python
-  $ python bin/minecraft-skins-sdxl.py output-skin.png "A man in a purple suit wearing a tophat"
-  ```
+```python
+$ python bin/minecraft-skins-sdxl.py output-skin.png "A man in a purple suit wearing a tophat"
+```
 
 5. The output skin will be saved into "output-skin.png" and should be similar to this:
 
-  ![images/purple.png](images/purple.png)
-  
+![images/purple.png](images/purple.png)
+
 6. The skin can then be imported directly into Minecraft:
 
-  ![images/minecraft-screenshot.png](images/minecraft-screenshot.png)
+![images/minecraft-screenshot.png](images/minecraft-screenshot.png)
 
+```python
+Test
+```
 
 ## Author
 
-Cory Spencer <cory@monadical.com>
+Cory Spencer <mailto:cory@monadical.com>
